@@ -1,0 +1,78 @@
+body {background-color: rgb(245, 245, 238);}
+.header img {
+    float :left:inline-end;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    border:0px
+    position:relative;
+
+}
+.header h2 {
+    float :left:inline-end;
+    font-family: gothic sans-serif;
+    font size:first-letter: 30px
+    font-size: 24px;
+    color: black;
+    margin: 0px;
+    padding-left: 60px;
+    position:absolute;
+    
+    top: 15px;
+    border:0px
+    : 0.5em;
+    
+}
+
+
+.base {
+    float :left;inline-end;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 12px;
+    color: black;
+    margin: 0px;
+    padding-left: 60px;
+    word-spacing: normal;
+    position:absolute;
+    top: 27px;
+    border:0px
+    font weight: bold;
+}
+
+.navigation {
+    float :right;inline-start;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(62, 12, 199);
+    margin: 0px;
+    padding: 10px;
+    position:absolute;
+    top: 15px;
+    left: 65%;
+    border:0px
+    gap: 15px;
+    underline: none;
+    
+    
+}
+
+.navigation nav {
+    text decoration: none;
+    font style: none
+    color: blue;
+    word-wrap: none;
+    
+}
+
+.participate {
+    
+    border: 80%;
+    font-size: 20;
+    word-spacing: 1,5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(71, 140, 167);
+
+}
