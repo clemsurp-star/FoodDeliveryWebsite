@@ -1,0 +1,23 @@
+
+
+
+.nav-text {
+    display: inline-block;
+    
+}
+.nav-text h1 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.large-font {
+    font-size: 30px;
+}
+
+.nav-text p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
