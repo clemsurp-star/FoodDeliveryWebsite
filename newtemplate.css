@@ -1,0 +1,42 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .small-width {
+    width: 100px;
+}
+
+.about {
+    text-decoration: none;
+}
+
+.about:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.about:hover {
+    text-decoration: underline;
+}
+.button {
+    position: relative;
+}
+
+.appear {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    padding: 0 25px;
+    background-color: gray;
+    color: white;
+}
+
+.button:hover .appear {
+    display: block;
+}
+
