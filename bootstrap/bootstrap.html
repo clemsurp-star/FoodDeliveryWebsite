@@ -4,11 +4,428 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap-test</title>
+    <link rel="stylesheet" href="boostrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 </head>
-<body>
+<body class="overflow-x-hidden">
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid d-none d-md-flex">
+        <div>
+           <p>Order <span>.UK</span></p>
+        </div>
+            <div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li>
+                        <a href="#Home">Home</a>
+                    </li>
+                    <li>
+                        <a  href="#Browsemenu">Browse Menu</a>
+                    </li>
+                    <li >
+                        <a  href="#Specialoffers">Special Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Trackorder">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        
+                        <a href="#login">login/Signup</a>
+                    </li>
+                </ul>
+    </nav>  -->
+
+<section class="d-flex flex-column-reverse flex-sm-column ">
+  <header class="d-flex align-items-center bg-body-tertiary p-0 p-md-2  mx-md-5 py-0 border rounded-bottom-3 justify-content-center ">
+      <p class="d-none d-lg-flex fw-medium fs-md-6  ms-1 ps-2 text-wrap">
+          Get 5% off your first order, <span class="fw-bold fs-15px orange text-decoration-underline" >Promo: ORDER5</span>
+      </p>
+      <div class="ms-auto me-5 d-none d-md-flex align-items-center  gap-3">
+          <img src="assets/Location.jpg" alt="location" width="25px" height="25px">
+          <p class="fw-medium fs-md-6px m-0 p-0 ps-2">Regent street, A4, A4201, London <span class="fw-medium fs-14px orange text-decoration-underline ps-2">Change location</span></p>
+      </div>
+      <div class=" d-flex align-items-center bg-success rounded-bottom-3">
+        <div class="p-3  border-end border-light"><img src="assets/Full Shopping Basket.png" alt="shopping basket" class="m-auto"></div>
+        <div class="py-4 px-3 border-end border-light h-100 "><p class="text-light m-auto  fw-semibold fs-16">23 items</p></div>
+        <div class="px-3 py-4 border-end border-light h-100"><p class="text-light  m-auto fw-semibold fs-16 ">GBP 79.89</p></div>
+        <div class="p-3"><img src="assets/Forward Button.png" alt="download"  class="m-auto"></div>
+          
+      </div>
+          
+  </header>
+
+  <nav class="  navbar navbar-expand-md bg-body-light m-3  ">
+    <div class=" justify-content-end d-flex gap-5  align-items-center w-100">
+      <img src="assets/LOGO 1.jpg" alt="Logo"  class="d-inline-block ms-md-5 logoimgsz" >
+      <img src="assets/Menu.svg" alt="menubar"class="d-md-none me-3 menuimgsz justify-content-end" >
+
+      
+      <div class=" collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        
+        <ul class="d-none d-lg-flex navbar-nav gap-4 gap-xl-5 gap-md-1 me-5 ">
+          <li class="nav-item">
+            <a class="nav-link active bg-warning rounded-5 px-4 " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item fs-18px fw-medium">
+            <a class="nav-link" href="#">Browse Menu</a>
+          </li>
+          <li class="nav-item fs-18px fw-medium">
+            <a class="nav-link" href="#">Special Offers</a>
+          </li>
+          <li class="nav-item fs-18px fw-medium">
+            <a class="nav-link" href="#">Restaurant</a>
+          </li>
+          <li class="nav-item fs-18px fw-medium">
+            <a class="nav-link" href="#">Track Order</a>
+          </li>
+          <li class="nav-item fs-18px fw-medium bg-dark rounded-5 px-3 d-flex align-items-center text-light">
+              <img src="assets/Male User.png" alt="male-user" width="30.97px" height="27px" class="me-2">
+            <a class="nav-link text-light fw-medium fs-18px" href="#">Login/Signup</a>
+          </li>
+        
+        </ul>
+        
+      </div>
+
+      <div class="d-none d-md-flex d-lg-none dropdown me-5">
+        <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+       </button>
+        <ul class=" dropdown-menu">
+          <li class="dropdown-item">
+            <a class="dropdown-item active bg-warning rounded-5 px-4 " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="dropdown-item fs-18px fw-medium">
+            <a class="nav-link" href="#">Browse Menu</a>
+          </li>
+          <li class="dropdown-item fs-18px fw-medium">
+            <a class="nav-link" href="#">Special Offers</a>
+          </li>
+          <li class="dropdown-item fs-18px fw-medium">
+            <a class="nav-link" href="#">Restaurant</a>
+          </li>
+          <li class="dropdown-item fs-18px fw-medium">
+            <a class="nav-link" href="#">Track Order</a>
+        </ul>
+        <ul class=" navbar-nav ms-5 ">
+        </li>
+          <li class="nav-item fs-18px fw-medium bg-dark rounded-5 px-3 d-flex align-items-center text-light">
+              <img src="assets/Male User.png" alt="male-user" width="30.97px" height="27px" class="me-2">
+            <a class="nav-link text-light fw-medium fs-18px" href="#">Login/Signup</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+</section>
+
+<section class=" m-lg-5 ps-xl-5 d-flex justify-content-between border border-tertiary heroheight m-3 rounded-3 bg-body-tertiary">
+  <div  class=" ps-lg-5 py-xl-0 p-2 ms-xl-5 d-none d-md-flex flex-column justify-content-center  ">
+        <p class=" fs-16px">Order Restaurant food, takeaway and groceries.</p>
+        <h1 class="fw-semibold fs-54px ">Feast your senses, <br> <span class="orange"> Fast and Fresh</span></h1>
+        <div>
+          <p class="fw-regular fs-13px">Enter a passode to see what we deliver</p>
+          <div class=" me-5 d-flex">
+            <input type="text" placeholder="e.g.EC4R 3TE " class="p-lg-3 p-1 rounded-5 rounded-end border border-dark border-end-0">
+            <button class="btn btn-warning p-3 rounded-5 border border-start-0 border-warning text-light">search</button>
+          </div>
+        </div>
+  </div >
+    <!-- for smaller devices -->
+    <div  class=" p-1 m-2 d-sm-flex d-md-none flex-column justify-content-center text-center   h-100 w-100 ">
+        <p class=" fspara">Order Restaurant food, takeaway and groceries.</p>
+        <h1 class="fw-semibold fspar ">Feast your senses, <br> <span class="orange"> Fast and Fresh</span></h1>
+        <div>
+          <p class="fsparag fs-13px">Enter a passode to see what we deliver</p>
+          <div class=" d-flex align-items-center justify-content-center">
+            <input type="text" placeholder="e.g.EC4R 3TE " class="p-lg-3 p-3 rounded-5 rounded-end border border-light border-end-0" style="width: 150px; height: 70px;">
+            <button class="btn btn-warning p-3 rounded-5 "><img src="assets/Next page.svg" alt="next-page"></button>
+          </div>
+        </div>
+  </div >
+  <div class=" position-relative d-none d-md-flex ">
+        <div class="z-3 position-aid ">
+        <img src="assets/Untitled-1 1.png" alt="pizza-bite" class="pizza" >
+        </div>
+        <div class=" z-2 position-aid-top  "><img src="assets/Untitled-2 1 (1).png" alt="eating-indomie" class="indomie d-md-none d-xl-flex"></div>
+        <div class=" position-absolute end-0 bottom-0 "><img src="assets/image 1.png" alt="background" class="backgr d-md-none d-lg-flex"></div>
+        
+         <div class="  position-n1  "><img src="assets/notification 3.png" alt="notification" class="d-none">
+        </div>
+        <div class="position-n2"><img src="assets/notification 3.png" alt="notification" class="d-none">
+        </div>
+        <div class="position-n3"><img src="assets/notification 3.png" alt="notification" class="d-none">     
+       </div>
+      </div>
+  </div>
+</section>
+
+<section class=" m-5 justify-content-center">
+  <div class=" d-none d-xl-flex gap-5 ms-3 w-100 align-items-center justify-content-center">
+      <p class="list-group-item fs-2 fw-bold">Up to -40% <span class="mx-4 ">Order.uk exclusive deals</span></p>
+    <div class=" d-flex gap-4  align-items-end align-items-center justify-content-end">
+      <button class="btn mx-4 ">Vegan</button>
+      <button class="btn mx-3 ">Sushi</button>
+      <button class="btn mx-3 px-4 py-3 btn-outline-warning text-warning rounded-5">Pizza & Fast food</button>
+      <button class="btn ms-3 ">Others</button>
+    </div>
+  </div>
+  <div class="d-none d-xl-flex mt-5 gap-3 justify-content-center">
+    <img src="assets/Group 10.svg" alt="chef-burger London" class="Sec-2-imgsz">
+    <img src="assets/Group 11.svg" alt="Grand-Ai-cafe London" class="Sec-2-imgsz">
+    <img src="assets/Group 12.svg" alt="Butterbrot Caf'e London" class="Sec-2-imgsz">
+  </div>
+
+</section>
+
+<section class=" m-5 justify-content-center ">
+  <div class=" d-none d-xl-flex gap-5 ms-3 w-100 align-items-center ">
+      <p class="list-group-item fs-2 fw-bold">Order.uk Popular Categories</p>
     
+  </div>
+  <div class="d-none d-xl-flex mt-5 gap-3 justify-content-center"> ">
+    <div class="d-flex flex-column gap-0">
+      <img src="assets/Rectangle 13.png" alt="chef-burger London" class="Sec-3-imgsz m-0 p-0">
+    <button class="btn bg-body-tertiary rounded-top px-2 rounded-3 text-start  m-0 "> 
+      <h6>Burger & Fast food</h6>
+      <p class="orange">21 Restaurant</p>
+    </button>
+  </div>
+    <div class="d-flex flex-column gap-0 justify-content-center">
+      <img src="assets/Rectangle 15.png" alt="Grand-Ai-cafe London" class="Sec-3-imgsz">
+      <button class="btn bg-body-tertiary rounded-top px-2 rounded-3 text-start  m-0 "> 
+      <h6>Salads</h6>
+      <p class="orange">32 Restaurant</p>
+    </button>
+    </div>
+    <div class="d-flex flex-column gap-0">
+      <img src="assets/Rectangle 17.png" alt="Butterbrot Caf'e London" class="Sec-3-imgsz">
+      <button class="btn bg-body-tertiary rounded-top px-2 rounded-3 text-start  m-0 "> 
+      <h6>Pasta & Casuals</h6>
+      <p class="orange">4 Restaurant</p>
+    </button>
+    </div>
+    <div class="d-flex flex-column gap-0">
+      <img src="assets/Rectangle 19.png" alt="chef-burger London" class="Sec-3-imgsz">
+      <button class="btn bg-body-tertiary rounded-top px-2 rounded-3 text-start  m-0 "> 
+      <h6>Pizza</h6>
+      <p class="orange">32 Restaurant</p>
+    </button>
+    </div>
+    <div class="d-flex flex-column gap-0 justify-content-center">
+      <img src="assets/Rectangle 21.png" alt="Grand-Ai-cafe London" class="Sec-3-imgsz">
+      <button class="btn bg-body-tertiary rounded-top px-2 rounded-3 text-start  m-0 "> 
+      <h6>Breakfast</h6>
+      <p class="orange">4 Restaurant</p>
+    </button>
+    </div>
+    <div class="d-flex flex-column gap-0">
+      <img src="assets/Rectangle 23.png" alt="Butterbrot Caf'e London" class="Sec-3-imgsz">
+      <button class="btn bg-body-tertiary rounded-top px-2 rounded-3 text-start  m-0 "> 
+      <h6>Soup</h6>
+      <p class="orange">32 Restaurant</p>
+    </button>
+    </div>
+  </div>
+
+</section>
+
+<section class=" m-5 justify-content-center">
+  <div class=" d-none d-xl-flex gap-5 ms-3 w-100 align-items-center  ">
+      <p class="list-group-item fs-2 fw-bold">Popular Restaurants</p>
+    
+  </div>
+  <div class="d-none d-xl-flex mt-5 gap-3 justify-content-center ">
+    <div class="d-flex flex-column gap-0">
+      <img src="assets/mcdonald.png" alt="chef-burger London" class="Sec-3-imgsz m-0 p-0">
+    <button class="btn bg-warning rounded-top rounded-3 text-centre text-light  m-0 "> 
+      <h6>Mcdonald's London</h6>
+    </button>
+  </div>
+    <div class="d-flex flex-column gap-0">
+       <img src="assets/papajones.png" alt="chef-burger London" class="Sec-3-imgsz m-0 p-0">
+    <button class="btn bg-warning rounded-top  rounded-3 text-centre text-light  m-0 "> 
+      <h6>Papa Johns</h6>
+    </button>
+    </div>
+    <div class="d-flex flex-column gap-0">
+       <img src="assets/kfc.png" alt="chef-burger London" class="Sec-3-imgsz m-0 p-0">
+    <button class="btn bg-warning rounded-top  rounded-3 text-centre text-light  m-0 "> 
+      <h6>KFC West London</h6>
+    </button>
+    </div>
+    <div class="d-flex flex-column gap-0">
+       <img src="assets/texas.png" alt="chef-burger London" class="Sec-3-imgsz m-0 p-0">
+    <button class="btn bg-warning rounded-top  rounded-3 text-centre text-light  m-0 "> 
+      <h6>Texas Chicken</h6>
+    </button>
+    </div>
+    <div class="d-flex flex-column gap-0 mb-5">
+       <img src="assets/burgerking.png" alt="chef-burger London" class="Sec-3-imgsz m-0 p-0">
+    <button class="btn bg-warning rounded-top  rounded-3 text-centre text-light  m-0 "> 
+      <h6>Burger King</h6>
+    </button>
+    </div>
+    <div class="d-flex flex-column gap-0">
+       <img src="assets/shaurma.png" alt="chef-burger London" class="Sec-3-imgsz m-0 p-0">
+    <button class="btn bg-warning rounded-top  rounded-3 text-centre text-light  m-0 "> 
+      <h6>Shaurma 1</h6>
+    </button>
+    </div>
+  </div>
+
+</section>
+
+<section class="m-5 rounded-3  bg-body-tertiary bg-body-transparent heroheight d-none d-xl-flex justify-content-center align-items-center position-relative">
+  <div class="">
+    <img src="assets/friends-laughing-using-mobiles 2@2x.png" alt="friends-laughing-using-mobiles" class="frndimgsz">
+    
+  </div>
+  <div class="align-items-center justify-content-center d-flex flex-column position-absolute end-0  m-5">
+    <P class="fs-1 fw-bold "><img src="assets/LOGO 1.jpg" alt="log">ing is more</P>
+    <button class="btn btn-dark rounded-5 px-5 py-3 text-light fw-semibold fs-1"><span class="text-warning text-decoration-underline">Personalised</span> & Instant</button>
+    <p class="fs-5 fw-medium text-center">Download the Order.uk app for faster ordering</p>
+    <img src="assets/app-store-badges-en 1.png" alt="appstore-googleplay" >
+  </div>
+
+</section>
+
+<section class="m-5 d-none d-xl-flex gap-3 justify-content-center">
+  <div>
+    <img src="assets/Group 10.png" alt="appstore-googleplay" class="grpimgsz">
+  </div>
+  <div>
+    <img src="assets/Group 16.png" alt="appstore-googleplay" class="grpimgsz">
+  </div>
+
+</section>
+<section class="bg-body-tertiary rounded-3 text-light p-5 m-5 d-none d-xl-block gap-3 justify-content-center align-items-center">
+   
+     <div class=" d-flex gap-5 align-items-center justify-content-center">
+      <div class="">
+      <p class="text-dark fs-5 fw-bold me-5">Know more about us!</p>
+      </div>
+      <div class="ms-5 d-flex gap-2 justify-content-center ">
+      <button class="btn mx-3 px-4 py-3 btn-outline-warning text-warning rounded-5 fw-bold">Frequent Questions</button>
+      <button class="btn mx-3">Who we are?</button>
+      <button class="btn mx-3">Partner Program</button>
+      <button class="btn ms-3 ">Help & Support</button>
+    </div>
+    </div>
+    <div class="m-5 p-5 pe-2 d-flex gap-5 border border-dark bg-dark justify-content-center  rounded-3 align-items-center">
+      <div class="">
+        <p class="fs-6 fw-bold rounded-5 p-3 bg-warning border border-warning text-dark text-center justify-content-center">How does Order.uk work?</p>
+        <ul class="list-unstyled text-light fs-6 fw-bold text-center justify-content-center">
+          <li class="mb-2">What payment methods are accepted?</li>
+          <li class="mb-2">Can i track my order in real time?</li>
+          <li class="mb-2">Are there any special discount or <br> promotion available?</li>
+          <li class="mb-2">Is Order.UK available in my area?</li>
+        </ul>
+      </div>
+      <div class="mt-5 d-flex flex-column gap-3">
+        <div class=" text light d-flex gap-3 justify-content-center align-items-center">
+          <div class=" m-3 p-3  rounded-3 text-center border border-tertiary bg-body-tertiary justify-content-center"> 
+            <h6 class="text-dark">Place an Order</h6>
+            <img src="assets/order-food 1.png" alt="place-an-order" >
+            <p class="text-dark text-center">place order through our <br>website or mobile app  </p>
+          </div>
+          <div class=" m-3 p-3  rounded-3 text-center border border-tertiary bg-body-tertiary justify-content-center"> 
+            <h6 class="text-dark">Track Progress</h6>
+            <img src="assets/food 1.png" alt="place-an-order" >
+            <p class="text-dark text-center">you can track your order <br>status with delivery time  </p>
+          </div>
+          <div class=" m-3 p-3  rounded-3 text-center border border-tertiary bg-body-tertiary justify-content-center"> 
+            <h6 class="text-dark">Get your Order</h6>
+            <img src="assets/order 1.png" alt="place-an-order" >
+            <p class="text-dark text-center">Receive your order at a <br>lighting fast speed </p>
+          </div>
+        </div>
+        <div class="">
+          <p class="text-light text-center fs-6">Order.uk simplifies the food ordering process. Browse through our diverse menu, <br>
+          select your favourite dishes, and proceed to checkout. your delicious meal will be <br> on its way to your doorstep in no time!</p>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="rounded-3 m-5 p-3 px-5 bg-warning d-flex gap-5 justify-content-between align-items-center ">
+<div class="border-end border-light pe-5 "> 
+  <p class="text-dark text-center "> 
+    546+ <br><span>Registered Riders</span>
+  </p>
+</div>
+
+</div>
+<div class="border-end border-light pe-5">
+  <p class="text-dark text-center "> 
+    789,800+ <br> <span>Orders Delivered</span>
+  </p>
+</div>
+<div class="border-end border-light pe-5">
+  <p class="text-dark text-center "> 
+    690+ <br><span>Restaurant Partnered</span>
+  </p>
+</div>
+<div class=" pe-5">
+  <p class="text-dark text-center "> 
+    17,457+ <br><span>Food Items</span>
+  </p>
+</div>
+</section>
+<footer class="d-flex flex-column m-5 bg-secondary" >
+  <div class="bg-secondary d-flex  gap-5 p-5 justify-content-center align-items-center rounded-3 m-auto ">
+    <div class="d-flex flex-column">
+      <img src="assets/LOGO 2.png" alt="logo">
+      <img src="assets/app-store-badges-en 1.png" alt="social-media" class="mt-3">
+      <p class="fs-6">company # 490039-445, registered with <br> house of companies</p>
+    </div>
+    <div class="d-flex flex-column gap-1">
+      <h6>Get Exclusive Deals in your Inbox</h6>
+      <div class=" me-5 d-flex">
+         <input type="text" placeholder="youremail@gmail.com " class="p-lg-3 p-1 rounded-5 rounded-end border border-dark border-end-0">
+         <button class="btn btn-warning p-3 rounded-5 border border-start-0 border-warning text-light">Subscribe</button>
+      </div>
+      <p>we wont spam read our <a href="#" class="text-dark">email policy</a></p>
+      <div class="d-flex gap-3 mt-3">
+        <img src="assets/Facebook.png" alt="facebook" >
+        <img src="assets/Instagram.png" alt="instagram" >
+        <img src="assets/TikTok.png" alt="tiktok" >
+        <img src="assets/Snapchat.png" alt="snapchat" >
+        </div>
+    </div>
+    <div class="">
+        <h6>Legal Pages</h6>
+      <ul class="list-unstyled d-flex flex-column gap-2">
+        <li class="text-decoration-underline"><a class="text-dark" href="#">Terms and conditions</a></li>
+        <li class="text-decoration-underline"><a class="text-dark" href="#">Privacy</a></li>
+        <li class="text-decoration-underline"><a class="text-dark" href="#">Cookies</a></li>
+        <li class="text-decoration-underline"><a class="text-dark" href="#">Modern slavery statement</a></li>
+      </ul>
+    </div>
+    <div class="">
+      <h6>Important links</h6>
+      <ul class="list-unstyled list-unstyled d-flex flex-column gap-2">
+        <li class="text-decoration-underline"><a class="text-dark" href="#">Get Help</a></li>
+        <li class="text-decoration-underline"><a class="text-dark" href="#">Add your restaurant</a></li>
+        <li class="text-decoration-underline"><a class="text-dark" href="#">Signup to deliver</a></li>
+        <li class="text-decoration-underline"><a class="text-dark" href="#">Create a business account</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="d-flex border-top border-3 border-primary bg-dark text-light justify-content-between align-items-center mt-3">
+    <div class="">
+      <p class="m-auto p-3 fs-6"> Order.uk copyright © 2024, All Rights Reserved.</p>
+    </div>
+    <div class="">
+      <ul class="list-unstyled   d-flex gap-4 m-auto p-3">
+        <li><a href="#" class=" text-light text-decoration-none ">Privacy Policy</a></li>
+        <li><a href="#" class="text-light text-decoration-none">Terms</a></li>
+        <li><a href="#" class="text-light text-decoration-none">Pricing</a></li>
+        <li><a href="#" class="text-light text-decoration-none">Do not sell or share my personal information</a></li>
+    </div>
+    
+  </div>
+</footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
